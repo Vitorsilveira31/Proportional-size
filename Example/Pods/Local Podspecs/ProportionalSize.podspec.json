@@ -1,0 +1,22 @@
+{
+  "name": "ProportionalSize",
+  "version": "0.1.0",
+  "summary": "A short description of ProportionalSize.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vitorsilveira31@gmail.com/ProportionalSize",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vitorsilveira31@gmail.com": "vitor.silveira@btgpactual.com"
+  },
+  "source": {
+    "git": "https://github.com/vitorsilveira31@gmail.com/ProportionalSize.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ProportionalSize/Classes/**/*"
+}

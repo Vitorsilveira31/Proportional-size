@@ -1,0 +1,6 @@
+framework module ProportionalSize {
+  umbrella header "ProportionalSize-umbrella.h"
+
+  export *
+  module * { export * }
+}

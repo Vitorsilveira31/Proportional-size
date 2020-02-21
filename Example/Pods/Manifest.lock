@@ -1,0 +1,16 @@
+PODS:
+  - ProportionalSize (0.1.0)
+
+DEPENDENCIES:
+  - ProportionalSize (from `../`)
+
+EXTERNAL SOURCES:
+  ProportionalSize:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ProportionalSize: 89f0c8d6c0033d832d204f9b2c835b947b96c744
+
+PODFILE CHECKSUM: 397d71988883b3802997b33a9eaf14cf0f624a2b
+
+COCOAPODS: 1.8.4

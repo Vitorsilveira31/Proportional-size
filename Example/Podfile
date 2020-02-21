@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ProportionalSize_Example' do
+  pod 'ProportionalSize', :path => '../'
+
+  target 'ProportionalSize_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
