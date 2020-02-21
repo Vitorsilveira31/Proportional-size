@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
 The goal of this library is to make available sizes proportional to the device used, helping to create a layout more similar to prototypes.
                        DESC
 
-  s.homepage         = 'https://github.com/vitorsilveira31/ProportionalSize'
+  s.homepage         = 'https://github.com/vitorsilveira31/Proportional-size'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Vitor Silveira' => 'vitorsilveira31@gmail.com' }
-  s.source           = { :git => 'https://github.com/vitorsilveira31@gmail.com/ProportionalSize.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Vitorsilveira31/Proportional-size.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/vitusilveira31'
 
   s.ios.deployment_target = '10.0'
