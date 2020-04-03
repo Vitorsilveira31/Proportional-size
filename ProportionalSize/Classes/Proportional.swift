@@ -25,5 +25,9 @@ public extension Double {
 }
 
 public extension CGFloat {
-    var proportional: CGFloat { self * (UIScreen.main.bounds.width / defaultWidthSize) }
+    var proportional: CGFloat { self * (UIScreen.width / defaultWidthSize) }
+}
+
+private extension UIScreen {
+  static var width: CGFloat { UIScreen.main.bounds.size.width }
 }
