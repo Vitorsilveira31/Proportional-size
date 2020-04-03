@@ -13,17 +13,17 @@ import UIKit
 public var defaultWidthSize: CGFloat = 375.0
 
 public extension Int {
-    var proportinal: CGFloat { CGFloat(self).proportinal }
+    var proportional: CGFloat { CGFloat(self).proportional }
 }
 
 public extension Float {
-    var proportinal: CGFloat { CGFloat(self).proportinal }
+    var proportional: CGFloat { CGFloat(self).proportional }
 }
 
 public extension Double {
-    var proportinal: CGFloat { CGFloat(self).proportinal }
+    var proportional: CGFloat { CGFloat(self).proportional }
 }
 
 public extension CGFloat {
-    var proportinal: CGFloat { self * (UIScreen.main.bounds.width / defaultWidthSize) }
+    var proportional: CGFloat { self * (UIScreen.main.bounds.width / defaultWidthSize) }
 }
